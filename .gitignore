@@ -24,3 +24,8 @@ hs_err_pid*
 replay_pid*
 /build/
 /target/
+
+# 敏感資訊
+src/main/webapp/firebaseServerKey.json
+*.json.key
+credentials/

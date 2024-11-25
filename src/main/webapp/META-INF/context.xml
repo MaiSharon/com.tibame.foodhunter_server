@@ -3,7 +3,7 @@
 
 	<Resource name="jdbc/server/foodhunter" type="javax.sql.DataSource"
 		driverClassName="com.mysql.cj.jdbc.Driver"
-		jdbcUrl="jdbc:mysql://34.72.67.67:3306/foodhunter"
+		jdbcUrl="jdbc:mysql://35.185.143.163:3306/foodhunter"
 		username="root"
 		password="0000"
 		factory="com.zaxxer.hikari.HikariJNDIFactory"
