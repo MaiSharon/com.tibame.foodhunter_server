@@ -29,3 +29,8 @@ replay_pid*
 src/main/webapp/firebaseServerKey.json
 *.json.key
 credentials/
+src/main/webapp/META-INF/context.xml
+
+# Default ignored files
+/shelf/
+/workspace.xml
