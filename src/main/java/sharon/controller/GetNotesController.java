@@ -1,6 +1,7 @@
 package sharon.controller;
 
 import java.io.IOException;
+import java.io.Serial;
 import java.nio.file.InvalidPathException;
 import java.util.List;
 
@@ -23,6 +24,8 @@ import sharon.vo.Note;
  */
 @WebServlet("/api/v1/members/*")
 public class GetNotesController extends BaseController {
+
+    @Serial  // Java 14 引入的新註解 用於標記序列化相關的字段和方法 幫助編譯器進行檢查
     private static final long serialVersionUID = 1L;
     private NoteService service;
 
